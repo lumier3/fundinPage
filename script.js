@@ -76,3 +76,20 @@ for (let i = 0; i < selectRadio.length; i++) {
         
 };
 
+/// mobile ver
+
+const menuTag = document.querySelector(".menuTag");
+const navLinktag = document.querySelector(".navlinks");
+menuTag.addEventListener("click", () => {
+    if (menuTag.classList.contains("fa-bars")) {
+        navLinktag.classList.add("toshowNavLinks");
+        menuTag.classList.remove("fa-bars");
+        menuTag.classList.add("fa-xmark");
+    } else {
+        navLinktag.classList.remove("toshowNavLinks");
+        menuTag.classList.add("fa-bars");
+        menuTag.classList.remove("fa-xmark");
+        
+    }
+    
+});

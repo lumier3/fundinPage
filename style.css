@@ -20,7 +20,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    z-index: -1;
 }
 
 ul {
@@ -72,7 +71,7 @@ ul {
 
 .textContainerOne {
     width: 100%;
-    height: 205px;
+    
     text-align: center;
     border: 0.3px solid hsl(0, 0%, 90%);
 }
@@ -144,7 +143,6 @@ ul {
 .textContainerTwo {
     width: 100%;
     background-color: #fff;
-    height: 200px;
     border: 0.3px solid hsl(0, 0%, 90%);
     border-radius: 10px;
     margin-top: 30px;
@@ -412,7 +410,6 @@ ul {
 .headerRadio {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .headerRadionoReward{
@@ -537,4 +534,151 @@ ul {
 
 .headerRadio .headerleft h2:hover {
     color: hsl(176, 50%, 47%);
+}
+
+.navbar .menuTag {
+    display: none;
+}
+
+.borderBot, .borderTop {
+    display: none;
+}
+
+
+
+/* media query */
+
+@media (max-width:850px) {
+    .navbar {
+        width: 90%;
+    
+    }
+
+    .navbar img {
+        padding-left: 5px;
+    }
+
+    .menuTag {
+        width: 10%;
+        font-size: 20px;
+        color: #fff;
+        z-index: 3;
+    }
+
+    .navlinks {
+        position: absolute;
+        background: hsl(0, 0%, 100%);
+        
+        width: 100%;
+        top: 100%;
+        z-index: 3;
+        text-align: left;
+        transition: display 1.5s ease-in-out;
+        border-radius: 10px;
+        display: none;
+        
+
+    }
+
+    .toshowNavLinks {
+        display: block;
+    }
+
+    .navlinks ul li {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        padding: 10px 20px;
+    }
+
+    .navlinks ul {
+        padding: 0;
+    }
+
+    .header .menuBar {
+        display: block;
+    }
+
+    .borderBot {
+        border-bottom: 0.4px solid hsl(0, 0%, 70%);
+    }
+
+    .borderTop {
+        border-top: 0.4px solid hsl(0, 0%, 70%);
+    }
+
+    .navbar .menuTag {
+        display: block;
+    }
+
+    .navbar img {
+        width: 112px;
+    }
+
+    /* text container */
+    .textContainer {
+        width: 90%;
+    }
+    .textContainerOne{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .buttonText {
+        flex-direction: column;
+    }
+
+    .buttonOne, .buttonTwo {
+        width: 60%;
+    }
+
+    .bookmark {
+        right: 63%;
+        top: 63%;
+    }
+    
+    .textContainerTwo .grid {
+        flex-direction: column;
+    }
+    
+    .Bright {
+        border-right: none;
+        border-bottom: 0.3px solid hsl(0,0%,75%);
+    }
+
+    .Bleft {
+        border-left: none;
+        border-top: 0.3px solid hsl(0,0%,75%);
+    }
+
+    .g-col-4 {
+        padding-top: 10px;
+        width: 70%;
+    }
+
+    .textContainerThree {
+        padding: 20px 15px;
+    }
+
+    .standDetail {
+        padding: 10px 8px;
+    }
+
+    .headerleft {
+        flex-direction: column;
+    }
+
+    .headerRadio {
+        align-items: "";
+    }
+
+    .pledgeContainer {
+        flex-direction: column;
+    }
+
+    .smallPledgeContainer {
+        width: 100%;
+    }
+
 }
