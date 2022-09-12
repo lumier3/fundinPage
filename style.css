@@ -328,7 +328,6 @@ ul {
 
 .thanks4SupportContainer {
     width: 30%;
-    height: 350px;
     position: absolute;
     z-index: 1;
     background-color: hsl(0, 0%, 100%);
@@ -679,6 +678,10 @@ ul {
 
     .smallPledgeContainer {
         width: 100%;
+    }
+    
+    .thanks4SupportContainer {
+        width: 90%;
     }
 
 }
