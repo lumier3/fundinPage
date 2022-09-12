@@ -1,0 +1,540 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.contianer {
+    width: 100%;
+    min-height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 340px;
+    background: url(images/image-hero-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 20px;
+    
+}
+
+.navbar img {
+    padding-left: 55px;
+    padding-bottom: 10px;
+    width: 160px;
+}
+
+.navlinks ul li {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+} 
+
+/* Texttt */
+
+.textContainer {
+    width: 50%;
+    height: 100vh;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+
+.backgroundnradius {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.textContainerOne {
+    width: 100%;
+    height: 205px;
+    text-align: center;
+    border: 0.3px solid hsl(0, 0%, 90%);
+}
+
+.buttonDiv {
+    position: relative;
+}
+
+.buttonText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+ .bookmark {
+    position: absolute;
+    right: 23%;
+    top: 25%;
+} 
+
+.favicon {
+    position: absolute;
+    width: 42px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonOne {
+    width: 25%;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buttonTwo {
+    width: 25%;
+    background-color: hsl(0, 0%, 75%);
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(0, 0%, 48%);
+    
+}
+
+.textContainerOne h2 {
+    font-size: 23px;
+    padding-top: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.textContainerOne .p1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: hsl(0, 0%, 48%);
+    font-weight: 500;
+    z-index: 1;
+}
+
+.textContainerTwo {
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+    border: 0.3px solid hsl(0, 0%, 90%);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.textContainerTwo .grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 30px;
+}
+
+.g-col-4 {
+    flex-basis: 33%;
+}
+
+.g-col-4 p {
+    text-align: left;
+    padding-left: 20px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2rem;
+}
+
+.g-col-4 span {
+    font-size: 12px;
+    color: hsl(0, 0%, 48%);
+
+}
+
+.Bleft {
+    border-left: 0.3px solid hsl(0, 0%, 75%);
+}
+
+.Bright {
+    border-right: 0.3px solid hsl(0, 0%, 75%);
+}
+
+.progress {
+    width: 90%;
+    height: 13px;
+    margin: 0px auto;
+}
+
+.progress-bar {
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 30px;
+}
+
+
+
+.textContainerThree {
+    width: 100%;
+    border: 0.5px solid hsl(0, 0%, 90%);
+    padding: 20px 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.textContainerThree h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.aboutThisProject p {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+
+.nameAndPoints, .priceAndSelectReward {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceAndSelectReward{
+    padding: 6px 16px;
+}
+
+
+
+.standDetail {
+    width: 100%;
+    border: 0.3px solid hsl(0, 0%, 90%);
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.widthClass {
+    width: 30%;
+    text-align: center;
+}
+
+.standDetail p {
+    color: hsl(0, 0%, 100%);
+}
+
+.aboutThisProject {
+    width: 100%;
+}
+
+.nameAndPoints .priceClass {
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nameAndPoints {
+    padding-top: 10px;
+}
+
+.nameAndPoints h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.nameAndPoints p {
+    padding: 0;
+    margin: 0;
+}
+
+.priceAndSelectReward h2 {
+    
+    margin: 0;
+}
+
+.priceAndSelectReward{
+    position: relative;
+}
+.priceAndSelectReward span {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 40%;
+}
+
+.outofStockClass {
+    color: hsl(0, 0%, 48%);
+}
+
+.textClass p {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+
+.priceAndSelectReward p {
+    margin: 0;
+}
+
+.outOfStockbg {
+    background-color: hsl(0, 0%, 48%);
+}
+
+.outOfStockClass {
+    opacity: 0.3;
+}
+
+.buttonOne:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.activeBM {
+    color: hsl(0, 0%, 100%);
+}
+
+.activeTxtandBg {
+    background-color: hsl(176, 50%, 47%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.thanks4SupportContainer {
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border: 0.3px solid hsl(0, 0%, 80%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    transition: display 1s ease-in-out;
+}
+
+.thanks4Support {
+    padding: 20px;
+    text-align: center;
+}
+
+.thanks4SupportTxt {
+    padding-top: 40px;
+}
+
+.thanks4SupportTxt h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.thanks4SupportTxt p {
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+    line-height: 1.5rem;
+}
+
+.thanks4Support-btn {
+    border: none;
+    margin-top: 20px;
+}
+
+.activeThanksforSupport {
+    display: block;
+    z-index: 3;
+}
+
+.activeblur {
+    filter: blur(2px);
+}
+
+.backThisProjectContainer {
+    width: 90%;
+    min-height: 120vh;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    border: 0.8px solid black;
+}
+
+.backThisProjectContainerToShow {
+    display: block;
+}
+
+
+.backThisProjectContainer h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.backThisProjectContainer p {
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+}
+
+.headerRadio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRadionoReward{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerleft {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.headerRadio .headerleft p {
+    color: hsl(176, 50%, 47%);
+}
+
+.headerRadio .headerleft h2 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.headerleft p{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textRadio {
+    padding-left: 32px;
+    padding-top: 8px;
+    line-height: 1.5rem;
+}
+
+.headerRadionoReward h2 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.borderN {
+    border: 0.3px solid hsl(0, 0%, 80%);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.pledgeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.smallPledgeContainer{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10px;
+}
+.toEnterPledge {
+    width: 90%;
+    border-top: 0.5px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    display: none;
+}
+
+.toShowEnterPledge {
+    display: block;
+}
+
+.noPaddnMar {
+    margin: 0;
+    padding: 0;
+}
+
+.continue {
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 0.5px solid hsl(0, 0%, 70%);
+}
+.dollar {
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 0.5px solid hsl(0, 0%, 70%);
+}
+
+.smallPledgeContainer p {
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+}
+
+.smallPledgeContainer .buttonOne:hover {
+    background-color: hsl(176, 50%, 47%);
+    color: #fff;
+}
+
+.backThisProjectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backThisProjectHeader img {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.headerRadionoReward h2:hover {
+    color: hsl(176, 50%, 47%);
+}
+
+.headerRadio .headerleft h2:hover {
+    color: hsl(176, 50%, 47%);
+}
